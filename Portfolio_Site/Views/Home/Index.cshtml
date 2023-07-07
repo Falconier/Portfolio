@@ -21,20 +21,19 @@
 	</div>
 </section>
 
-<header id="header">
+<header id="header" class="h-auto">
 
-	<div>
-		<ul class="nav justify-content-center">
-			<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
-			<li class="nav-item"><a class="nav-link text-white" href="#features">Current Projects</a></li>
-			<li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
-			<li class="nav-item"><a class="nav-link text-white" href="#contact">Contact Me</a></li>
-		</ul>
-		@*<ul class="nav justify-content-center">
-			<li class="nav-item"><a class="nav-link text-white" href="https://github.com/Falconier"><i class="fa fa-github"></i></a></li>
-			<li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/jacob-emory-bullin-281032161/"><i class="fa fa-linkedin"></i></a></li>
-		</ul>*@
-	</div>
+	<ul class="nav justify-content-center">
+		<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+		<li class="nav-item"><a class="nav-link text-white" href="#current">Current Projects</a></li>
+		<li class="nav-item"><a class="nav-link text-white" href="#lab">Home Lab</a></li>
+		<li class="nav-item"><a class="nav-link text-white" href="#contact">Contact Me</a></li>
+		<li class="nav-item"><a class="nav-link text-white" href="#radio">Amateur Radio</a></li>
+	</ul>
+	@*<ul class="nav justify-content-center">
+	<li class="nav-item"><a class="nav-link text-white" href="https://github.com/Falconier"><i class="fa fa-github"></i></a></li>
+	<li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/jacob-emory-bullin-281032161/"><i class="fa fa-linkedin"></i></a></li>
+	</ul>*@
 
 </header>
 
@@ -46,22 +45,118 @@
 		</h2>
 
 		<p>
-			Since high school I have been exploring and accessing my interests. I’ve taken a few classes, worked, and spent a lot of time thinking about what I want to do with my life. I’ve developed a real love for photography. In fact, you can see some of my work in the images here on my web site. I’ve also come back to computer programming and software development an interest that started with an AP Computer Science Class my junior year of high school. I have recognized my talent in this field and am now in the process of honing skills and learning new languages. My goal is to find a position with a small to mid-sized innovative company whose environment encourages growth and creativity.
+			Since high school I have been exploring and accessing my interests.
+			I’ve taken a few classes, worked, and spent a lot of time thinking about what
+			I want to do with my life. I’ve developed a real love for photography.
+			In fact, you can see some of my work in the images here on my web site.
+			I’ve also come back to computer programming and software development an
+			interest that started with an AP Computer Science Class my junior year
+			of high school. I have recognized my talent in this field and am now in
+			the process of honing skills and learning new languages. My goal is to
+			find a position with a small to mid-sized innovative company whose
+			environment encourages growth and creativity.
 		</p>
 
 	</div>
 </section>
 
-<section class="features" id="features">
+<section class="features" id="current">
 	<div class="container">
 
 		<h2>
-			Current Project
+			Current Work
+		</h2>
+
+		<p>
+			I am presently at Vestcom.
+		</p>
+
+	</div>
+</section>
+
+<section class="features" id="lab">
+	<div class="container">
+
+		<h2>
+			Home Lab
 		</h2>
 
 		<p>
 
 		</p>
 
+	</div>
+</section>
+
+<section class="features" id="contact">
+	<div class="container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center greenText">
+						Contact Me
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<div class="info">
+					<div>
+						<i class="fa fa-map-marker" style="color: #063;"></i>
+						<p>Winston Salem, NC, USA</p>
+					</div>
+
+					<div>
+						<i class="fa fa-envelope" style="color: #063;"></i>
+						<p>jbullin.engstudio@icloud.com</p>
+					</div>
+
+					<div>
+						<i class="fa fa-phone" style="color: #063;"></i>
+						<p>+1-336-701-2353</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<!--need antiforgery token-->
+				<div class="form-group">
+					<input type="text" name="FromName" class="form-control" id="name" placeholder="Full Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
+					<div class="validation"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="email" class="form-control" name="FromEmail" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+					<div class="validation"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" />
+					<div class="validation"></div>
+				</div>
+
+				<div class="form-group">
+					<textarea class="form-control" name="body" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+					<div class="validation"></div>
+				</div>
+
+				<input type="submit" value="Send" style=" color: white; background-color: #063;" />
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="features" id="radio">
+	<div class="container">
+
+		<h2>
+			Amateur Radio
+		</h2>
+
+		<p>
+
+		</p>
 	</div>
 </section>
